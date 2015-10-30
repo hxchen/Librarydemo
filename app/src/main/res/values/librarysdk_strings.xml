@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="qikulogin_sdk_app_name">LibrarySDK</string>
+    <string name="qikulogin_sdk_app_descp">From LibrarySDK</string>
+    <string name="qikulogin_sdk_action_settings">Settings</string>
+    <string name="qikulogin_sdk_show_toast">Show Toast</string>
+
+
+</resources>

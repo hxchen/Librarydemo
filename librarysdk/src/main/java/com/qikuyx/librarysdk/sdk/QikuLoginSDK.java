@@ -4,8 +4,6 @@ import android.content.Context;
 import android.util.Log;
 
 import com.qikuyx.librarysdk.MainActivity;
-import com.qikuyx.librarysdk.common.GetItemId;
-import com.qikuyx.librarysdk.common.ResContainer;
 
 
 /**
