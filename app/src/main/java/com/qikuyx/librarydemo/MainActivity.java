@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.qikuyx.librarysdk.common.GetItemId;
 import com.qikuyx.librarysdk.sdk.QikuLoginSDK;
 
 
@@ -23,6 +24,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
     }
     private void initView(){
         Button loginGameButton = (Button) findViewById(R.id.btn_invokeSDK);
+        int i = GetItemId.getIdResIDByName(this,"btn_invokeSDK");
+        Log.i(TAG, "btn_invokeSDK 的ID是"+i);
         loginGameButton.setOnClickListener(this);
     }
     @Override

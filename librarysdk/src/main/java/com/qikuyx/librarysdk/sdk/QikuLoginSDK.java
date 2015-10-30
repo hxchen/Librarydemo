@@ -4,12 +4,15 @@ import android.content.Context;
 import android.util.Log;
 
 import com.qikuyx.librarysdk.MainActivity;
+import com.qikuyx.librarysdk.common.GetItemId;
+import com.qikuyx.librarysdk.common.ResContainer;
 
 
 /**
  * Created by Administrator on 2015/10/21.
  */
 public final class QikuLoginSDK {
+    private static final String TAG = "SDK的UI";
     private static final QikuLoginSDK INSTANCE = new QikuLoginSDK();
 
     public static QikuLoginSDK getInstance(){

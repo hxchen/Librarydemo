@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">LibraryDemo</string>
-    <string name="app_descp">LibraryDemo演示</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">LibrarySDK</string>
     <string name="invoke_sdk">点击调用带布局的SDK</string>
+    <string name="app_descp">这里是LibrarySDK</string>
+    <string name="action_settings">Settings</string>
+
 </resources>
